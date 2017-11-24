@@ -14,6 +14,7 @@ import axios from 'axios'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import VueAxios from 'vue-axios'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import 'muse-ui/dist/muse-ui.css'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import 'muse-ui/dist/theme-default.css'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+import './assets/styles/theme.less'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 import VueWechatTitle from 'vue-wechat-title'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 Vue.use(MuseUI){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 Vue.use(VueWechatTitle){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
