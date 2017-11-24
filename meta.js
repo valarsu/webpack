@@ -44,13 +44,13 @@ module.exports = {
       "type": "confirm",
       "message": "Install vue-router?"
     },
-    "lint": {
-      "type": "confirm",
-      "message": "Use ESLint to lint your code?"
-    },
     "v_al_ue": {
       "type": "confirm",
       "message": "Use v_al_ue?"
+    },
+    "lint": {
+      "type": "confirm",
+      "message": "Use ESLint to lint your code?"
     },
     "lintConfig": {
       "when": "lint",
