@@ -48,6 +48,10 @@ module.exports = {
       "type": "confirm",
       "message": "Use ESLint to lint your code?"
     },
+    "v_al_ue": {
+      "type": "confirm",
+      "message": "Use v_al_ue?"
+    },
     "lintConfig": {
       "when": "lint",
       "type": "list",
