@@ -20,7 +20,6 @@ Vue.use(VueWechatTitle){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 Vue.use(VueAxios, axios){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/v_al_ue}}
 
-
 Vue.config.productionTip = false{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
 /* eslint-disable no-new */
